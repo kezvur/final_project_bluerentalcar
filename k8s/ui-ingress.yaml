@@ -23,7 +23,7 @@ spec:
                   number: 80
             path: /
             pathType: Prefix
-    - host: pro.samdevops.link
+    - host: pro.kezibanvural.online
       http:
         paths:
           - backend:
@@ -33,7 +33,7 @@ spec:
                   number: 9090
             path: /
             pathType: Prefix
-    - host: gra.samdevops.link
+    - host: gra.kezibanvural.online
       http:
         paths:
           - backend:
