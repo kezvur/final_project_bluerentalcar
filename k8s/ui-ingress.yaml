@@ -13,7 +13,7 @@ metadata:
   name: ui
 spec:
   rules:
-    - host: kezibanvural.online
+    - host: rental.kezibanvural.online
       http:
         paths:
           - backend :
