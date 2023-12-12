@@ -16,7 +16,7 @@ spec:
     - host: kezibanvural.online
       http:
         paths:
-          - backend
+          - backend :
               service:
                 name: ui
                 port:
