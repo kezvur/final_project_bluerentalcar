@@ -4,7 +4,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
     kompose.cmd: kompose convert -f docker-compose.yaml
-    kompose.service.expose: kezibanvural.online
+    kompose.service.expose: prettier-estates.online
     kompose.service.type: nodeport
     kompose.version: 1.31.2 (a92241f79)
   creationTimestamp: null
@@ -13,7 +13,7 @@ metadata:
   name: ui
 spec:
   rules:
-    - host: rental.kezibanvural.online
+    - host: rental.prettier-estates.online
       http:
         paths:
           - backend :
@@ -23,7 +23,7 @@ spec:
                   number: 80
             path: /
             pathType: Prefix
-    - host: pro.kezibanvural.online
+    - host: pro.prettier-estates.online
       http:
         paths:
           - backend:
@@ -33,7 +33,7 @@ spec:
                   number: 9090
             path: /
             pathType: Prefix
-    - host: gra.kezibanvural.online
+    - host: gra.prettier-estates.online
       http:
         paths:
           - backend:

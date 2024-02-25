@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   annotations:
     kompose.cmd: kompose convert -f docker-compose.yaml
-    kompose.service.expose: rental.kezibanvural.online
+    kompose.service.expose: rental.prettier-estates.online
     kompose.service.type: nodeport
     kompose.version: 1.31.2 (a92241f79)
   creationTimestamp: null
@@ -20,7 +20,7 @@ spec:
     metadata:
       annotations:
         kompose.cmd: kompose convert -f docker-compose.yaml
-        kompose.service.expose: rental.kezibanvural.online
+        kompose.service.expose: rental.prettier-estates.online
         kompose.service.type: nodeport
         kompose.version: 1.31.2 (a92241f79)
       creationTimestamp: null
@@ -31,7 +31,7 @@ spec:
       containers:
         - env:
             - name: APP_URL
-              value: http://rental.kezibanvural.online:8080/car-rental/api/
+              value: http://rental.prettier-estates.online:8080/car-rental/api/
           image: IMAGE_TAG_UI
           name: ui
           ports:
