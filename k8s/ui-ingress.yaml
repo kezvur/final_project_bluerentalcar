@@ -4,7 +4,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
     kompose.cmd: kompose convert -f docker-compose.yaml
-    kompose.service.expose: prettier-estates.online
+    kompose.service.expose: carrental.prettier-estates.online
     kompose.service.type: nodeport
     kompose.version: 1.31.2 (a92241f79)
   creationTimestamp: null
